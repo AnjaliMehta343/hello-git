@@ -1,0 +1,42 @@
+GIT COMMANDS
+
+1. git config --global user.name
+   	It configures the name of user to be used with the commits.
+
+2. git config --global user.email
+   	It configures the email address of the user.
+
+3. git init
+   	It initialises a tracker(.git) inside a repository.
+
+4. git status
+	It tells if any change is made in the git repository which is untracked.
+	
+5.(a) git add name_of_the_file_to_be_tracked
+	It tracks a particular untracked file which is mentioned.
+	Example: If hello.txt is a new file in the repository , then the command used to track this particular file is:
+	git add hello.txt
+
+  (b) git add .
+	It tracks all the untracked files in the repository.
+
+6. git commit -m "message"
+	It creates a version of text with a message. It commit changes to head.
+
+7. git log
+	It is used to check the committed versions.
+
+8. git checkout commit_id
+	It is used to move to the previous version when commit id is entered.
+
+9. git checkout master
+	It helps the user to get the latest version.
+
+10. git remote add origin
+	It links our local repository to the remote rpository.
+
+11. git push origin master
+	It push the commits from local repository to remote repository.
+	
+
+   
